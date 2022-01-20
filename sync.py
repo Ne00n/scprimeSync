@@ -16,3 +16,4 @@ if coins < 1: coins = 1
 coins = "{:.2f}".format(coins)
 print(f"Setting {coins}")
 os.system(f"ScPrime-v1.6.0-linux-amd64/spc host config minstorageprice {coins}SCP")
+os.system(f"ScPrime-v1.6.0-linux-amd64/spc host config collateral {coins}SCP")
