@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import coinmarketcapapi, json, os
 
 cmc = coinmarketcapapi.CoinMarketCapAPI('YOURKEY')
