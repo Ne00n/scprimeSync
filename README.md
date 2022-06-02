@@ -12,12 +12,12 @@ Free up to 10k/req per month</br>
 ```
 git clone https://github.com/Ne00n/scprimeSync.git && cd scprimeSync
 cp config.example.json config.json
-sed -i -e 's/YOURKEY/xxxx-xxxx-xxxx-xxxx/g' config.json
-sed -i -e 's/TARGETPRICE/4.0/g' config.json
+sed -i -e 's/xxxx-xxxx-xxxx-xxxx/YOURKEY/g' config.json
+sed -i -e 's/4.0/TARGETPRICE/g' config.json
 ```
 As of today you can go up to 4$ per TB
 
 **Test**<br />
 ```
-python3 sync.py
+python3 scprimeSync/sync.py
 ```
