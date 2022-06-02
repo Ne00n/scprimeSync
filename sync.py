@@ -8,8 +8,6 @@ minPrice = 3 #price per TB in USD
 print(price)
 coins =  minPrice / (price / 100) / 100
 #Failsafe
-#Suggest by scprime dev's max at 15
-if coins > 15: coins = 15
 #Don't go below 1
 if coins < 1: coins = 1
 #Format
