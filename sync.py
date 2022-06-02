@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 import coinmarketcapapi, json, os
+path = os.path.dirname(os.path.realpath(__file__))
 
 print("Loading config.json")
-with open("config.json") as handle:
+with open(f"{path}/config.json") as handle:
     config = json.loads(handle.read())
 
 cmc = coinmarketcapapi.CoinMarketCapAPI(config['apiKey'])
