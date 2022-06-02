@@ -3,7 +3,7 @@ Sync your Node pricing with current SCP listed Price
 
 **Dependencies**<br />
 ```
-apt-get install -y python3 python3-pip && pip3 install python-coinmarketcap
+apt-get install -y git python3 python3-pip && pip3 install python-coinmarketcap
 ```
 
 **API Key**<br />
