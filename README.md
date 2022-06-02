@@ -10,6 +10,7 @@ apt-get install -y git python3 python3-pip && pip3 install python-coinmarketcap
 https://coinmarketcap.com/api/</br>
 Free up to 10k/req per month</br>
 ```
+git clone https://github.com/Ne00n/scprimeSync.git && cd scprimeSync
 cp config.example.json config.json
 sed -i -e 's/YOURKEY/xxxx-xxxx-xxxx-xxxx/g' config.json
 sed -i -e 's/TARGETPRICE/4.0/g' config.json
