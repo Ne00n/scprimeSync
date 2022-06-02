@@ -19,5 +19,5 @@ As of today you can go up to 4$ per TB
 
 **Test**<br />
 ```
-python3 scprimeSync/sync.py
+python3 sync.py
 ```
