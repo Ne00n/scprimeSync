@@ -11,8 +11,11 @@ pip3 install python-coinmarketcap
 https://coinmarketcap.com/api/</br>
 Free up to 10k/req per month</br>
 ```
-sed -i -e 's/YOURKEY/xxx-xxxx-xxxx-xxx-xxxx/g' scprimeSync/sync.py
+cp config.example.json config.json
+sed -i -e 's/YOURKEY/xxxx-xxxx-xxxx-xxxx/g' config.json
+sed -i -e 's/TARGETPRICE/4.0/g' config.json
 ```
+As of today you can go up to 4$ per TB
 
 **Test**<br />
 ```
